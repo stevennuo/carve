@@ -1,0 +1,36 @@
+{
+  "name": "recarve",
+  "version": "1.0.0",
+  "description": "minimal invasion for hybrid structure of nested array-object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevennuo/recarve.git"
+  },
+  "keywords": [
+    "deep",
+    "array",
+    "object",
+    "map",
+    "filter",
+    "recursive",
+    "nested"
+  ],
+  "author": "linuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevennuo/recarve/issues"
+  },
+  "homepage": "https://github.com/stevennuo/recarve#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-deep-match": "^1.0.2",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "string2tree": "^1.0.0"
+  }
+}
